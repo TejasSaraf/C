@@ -1,17 +1,18 @@
-#include<stdio.h>
+#include <stdio.h>
 void sum(int a)
 {
-    int i,s=0;
-    for(i=0;i<=a;i++)
+    int i, s = 0;
+    for (i = 0; i <= a; i++)
     {
-        s+=i;
+        s += i;
     }
-    printf("The sum of N Natural Numbers:%d",s);
+    printf("The sum of N Natural Numbers:%d", s);
 }
-int main(){
+int main()
+{
     int n;
     printf("Enter Any Natural Number To Print Sum:");
-    scanf("%d",&n);
+    scanf("%d", &n);
     sum(n);
     return 0;
 }

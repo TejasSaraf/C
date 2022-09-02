@@ -1,12 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
 void display(int i)
 {
-    printf("The address of variable i is:%u\n",&i);
+    printf("The address of variable i is:%u\n", &i);
 }
 int main()
 {
-    int i=35;
-    printf("The address of i:%u\n",&i);
+    int i = 35;
+    printf("The address of i:%u\n", &i);
     display(i);
     return 0;
 }

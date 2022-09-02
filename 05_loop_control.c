@@ -1,15 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int i,n,sum=0;
+    int i, n, sum = 0;
     printf("Enter Number:");
-    scanf("%d",&n);
-    i=0;
+    scanf("%d", &n);
+    i = 0;
     do
     {
-        sum+=i;
+        sum += i;
         i++;
-    }while(i<=n);
-    printf("The value of sum(1 to 10) : %d",sum);
+    } while (i <= n);
+    printf("The value of sum(1 to 10) : %d", sum);
     return 0;
 }

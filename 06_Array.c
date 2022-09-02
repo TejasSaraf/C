@@ -1,15 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
 void printTable(int *arr, int num, int n)
 {
     int i;
     printf("The Multiplication Table of %d is \n", num);
-    for(i=0; i<n; i++)
+    for (i = 0; i < n; i++)
     {
-        arr[i] = num*(i+1);
+        arr[i] = num * (i + 1);
     }
-    for(i=0; i<n; i++)
+    for (i = 0; i < n; i++)
     {
-        printf("%d X %d = %d\n", num, (i+1), arr[i]);
+        printf("%d X %d = %d\n", num, (i + 1), arr[i]);
     }
     printf("*****************************************************************\n");
 }
@@ -21,5 +21,4 @@ int main()
     printTable(arr[2], 9, 10);
 
     return 0;
-
 }

@@ -1,6 +1,6 @@
 /* Write a program to print the value of a variable i by using "pointer to pointer" type of variable */
 
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     int i = 5;
@@ -9,6 +9,5 @@ int main()
     ptr = &i;
     ptr_2 = &ptr;
 
-    printf("The value of i :%d",**ptr_2);
-
+    printf("The value of i :%d", **ptr_2);
 }

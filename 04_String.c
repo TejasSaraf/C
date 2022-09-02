@@ -1,12 +1,12 @@
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
 
 void swap(char ptr, char ptr2)
 {
   char temp;
-  temp=ptr;
-  ptr=ptr2;
-  ptr2=temp;
+  temp = ptr;
+  ptr = ptr2;
+  ptr2 = temp;
 }
 
 int main()

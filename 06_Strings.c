@@ -1,10 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
 int strlen(char *c)
 {
     char *ptr;
-    int count=0;
-    ptr=c;
-    while(*ptr!='\0'){
+    int count = 0;
+    ptr = c;
+    while (*ptr != '\0')
+    {
         count++;
         ptr++;
     }
@@ -14,6 +15,6 @@ int main()
 {
     char st[] = "Alice";
     int count = strlen(st);
-    printf("The length of the string is:%d",count);
+    printf("The length of the string is:%d", count);
     return 0;
 }

@@ -12,7 +12,7 @@ typedef struct time
     int sec;
     int minute;
     int hour;
-}time;
+} time;
 
 void display(date d1, time t1, date d2, time t2)
 {
